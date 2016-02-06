@@ -4,6 +4,10 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
+    lintOptions {
+        abortOnError false
+    }
+    
     defaultConfig {
         applicationId "info.plateaukao.android.customviewssample"
         minSdkVersion 15
@@ -23,5 +27,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'info.plateaukao.android:customviews:1.0.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:appcompat-v7:23.1.1'
 }
