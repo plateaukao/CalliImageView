@@ -15,7 +15,7 @@ Different grid styles are provided.
 without character, you can practice writing directly on grid
 
 ## Demo
-![Image](calliimageview.gif =720x360)
+<img src="calliimageview.gif" width="360">
 
 ## How to use the library
 
