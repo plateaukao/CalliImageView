@@ -36,3 +36,18 @@ dependencies {
     ...
 }
 ```
+## Add CalliImageView in layout file
+
+```xml
+<info.plateaukao.android.customviews.CalliImageView
+    android:id="@+id/char_imageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center"
+    custom:borderSize="@dimen/char_border_size"
+    custom:crossSize="@dimen/char_cross_size"
+    android:background="@color/char_bg"
+    android:gravity="center"
+    android:scaleType="fitCenter" />
+```
