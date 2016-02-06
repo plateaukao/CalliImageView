@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="info.plateaukao.android.customviewssample.MainActivity">
+
+    <TextView
+        android:text="Hello World!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <info.plateaukao.android.customviews.CalliImageView
+        android:id="@+id/char_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        custom:borderSize="@dimen/char_border_size"
+        custom:crossSize="@dimen/char_cross_size"
+        android:background="@color/char_bg"
+        android:gravity="center"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draw Style"
+        android:id="@+id/btStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid Style "
+        android:id="@+id/btGrid"
+        android:layout_toRightOf="@+id/btStyle"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide Char"
+        android:id="@+id/btChar"
+        android:layout_toRightOf="@+id/btGrid"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

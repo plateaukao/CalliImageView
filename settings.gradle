@@ -1,1 +1,2 @@
 include ':customviews'
+include ':sample'
