@@ -1,6 +1,5 @@
 ## CalliImageView
 
-## Brief
 A custom view for android platform to display Chinese calligraphy
 characters with extra features.
 
@@ -16,7 +15,7 @@ Different grid styles are provided.
 without character, you can practice writing directly on grid
 
 ## Demo
-![Image](calliimageview.gif)
+![Image](calliimageview.gif =720x360)
 
 ## How to use the library
 
