@@ -15,7 +15,8 @@ Different grid styles are provided.
 without character, you can practice writing directly on grid
 
 ## Demo
-<img src="calliimageview.gif" width="360">
+<img
+src="https://lh3.googleusercontent.com/QPT4p17z-azO9z8qYDyYu9QZhmh68uj0naGP4jaGtBT30nC4xJuN9ihgEyEZVLXLLoly-EkOMcki3g=w390-h692-no" width="360">
 
 ## How to use the library
 
